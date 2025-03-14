@@ -1,6 +1,10 @@
 main{
   max-width: 840px;
 }
+aside img {
+  width: 200px;
+  height: auto;
+}
 aside {
   width: 20rem;
   margin: 1rem;
