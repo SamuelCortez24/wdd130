@@ -9,10 +9,6 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
-  aside img {
-    width: 200px;
-    height: auto;
-  }
 }
 nav {
   background-color: rgb(255, 48, 48);
