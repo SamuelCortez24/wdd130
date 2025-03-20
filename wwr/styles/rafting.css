@@ -1,0 +1,72 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #4f7cac;
+    --secondary-color: #c0e0de;
+    --accent1-color: #162521;
+    --accent2-color: #3c474b;
+}
+
+/* Limit Page Width */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
+/* Headings and Paragraphs */
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--accent2-color);
+}
+
+/* Remove Underlines from Social Media Image Links */
+.social-media a {
+    text-decoration: none;
+}
+
+/* Hero Container */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Positioning h1 Absolutely */
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Positioning Article Absolutely */
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+/* Float Image inside Article */
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    max-width: 100px;
+}
