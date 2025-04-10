@@ -1,9 +1,9 @@
 /* Define CSS Variables */
 :root {
-    --primary-color: #4f7cac;
-    --secondary-color: #c0e0de;
-    --accent1-color: #162521;
-    --accent2-color: #3c474b;
+    --primary-color: #1e3d58; /* Azul oscuro */
+    --secondary-color: #f4f7f8; /* Fondo claro */
+    --accent1-color: #ef6c00; /* Naranja cálido */
+    --accent2-color: #a9b7c6; /* Gris claro */
 }
 
 /* Limit Page Width */
